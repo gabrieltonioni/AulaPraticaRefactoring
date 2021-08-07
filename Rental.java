@@ -4,16 +4,16 @@ public class Rental {
     private int _daysRented;
  
     public Rental(Movie movie, int daysRented) {
-       _movie = movie;
-       _daysRented = daysRented;
+        _movie = movie;
+        _daysRented = daysRented;
     }
  
     public int getDaysRented() {
-       return _daysRented;
+        return _daysRented;
     }
  
     public Movie getMovie() {
-       return _movie;
+        return _movie;
     }
- }
+}
  
